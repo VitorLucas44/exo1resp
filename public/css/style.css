@@ -5,7 +5,7 @@ body{
 
     nav{
     display: flex;
-    background-color: black;
+    background-color: #1a1a1d;
     width: 100%;
     height: 20%;
     justify-content: space-between;
@@ -18,7 +18,7 @@ img{
     margin: 15px;
 }
 header{
-    background-color: darkslateblue;
+    background-color: #334d5c;
     height: 250px;
 
 }
@@ -40,3 +40,53 @@ header{
     margin-bottom: 20px;
     margin-top: 50px;
 }
+h1{
+   
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-size: xx-large;
+
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #334d5c;
+    width: 480px;
+    margin-left: 600px;
+    width: 240px;
+    height: 100px;
+}
+.logotxt{
+    display: flex;
+    justify-content: center;
+}
+.logotxt>img{
+    margin-right: 20%;
+    
+}
+.logotxt>p{
+    margin-top: 3%;
+}
+.livre{
+    background-color:#eae3d6;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.livre img{
+    width: 8%;
+    justify-content: space-between;
+    margin: 40px;
+    
+}
+section:nth-child(3){
+    display: flex;
+    justify-content: ;
+}
+
+/* #eae3d6 */
+/* #393a3b */
