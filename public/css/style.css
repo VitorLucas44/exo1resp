@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+    nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+}
+.navdroite{
+    display: flex;
+    justify-content: end;
+}
+img{
+    margin: 15px;
+}
+header{
+    background-color: darkslateblue;
+    height: 250px;
+
+}
+.pack{
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.pack>p{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left:30%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.pack img{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
