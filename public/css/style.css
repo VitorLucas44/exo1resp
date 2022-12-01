@@ -16,6 +16,7 @@ body{
 }
 img{
     margin: 15px;
+    width: 10%;
 }
 header{
     background-color: #334d5c;
@@ -69,7 +70,7 @@ h1{
 .logotxt>p{
     margin-top: 3%;
 }
-.livre{
+.logo{
     background-color:#eae3d6;
     width: 100%;
     justify-content: space-between;
@@ -77,15 +78,26 @@ h1{
     margin-bottom: 40px;
 
 }
-.livre img{
-    width: 8%;
+.livre{
+    background-color:#eae3d6;
+    width: 100%;
     justify-content: space-between;
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.livre img{
     margin: 40px;
     
 }
 section:nth-child(3){
     display: flex;
     justify-content: ;
+}
+.carte{
+    margin-left: 600px;
+    width: 10%;
 }
 
 /* #eae3d6 */
